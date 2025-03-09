@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <section class="review">
+    <form class="review__box">
+      <img src="./images/icon-star.svg" alt="" class="review__star">
+      <h1 class="review__title">How did we do?</h1>
+      <p class="review__text">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+
+      <div class="review__input-box">
+      <input type="radio" name="review" id="review-one" value="1" class="review__input">
+      <label for="review-one">1</label>
+      
+
+      <input type="radio" name="review" id="review-two" value="2" class="review__input">
+      <label for="review-two">2</label>
+
+      <input type="radio" name="review" id="review-three" value="3" class="review__input">
+      <label for="review-three">3</label>
+
+      <input type="radio" name="review" id="review-four" value="4" class="review__input">
+      <label for="review-four">4</label>
+
+      <input type="radio" name="review" id="review-five" value="5" class="review__input">
+      <label for="review-five">5</label>
+    </div>
+      <button type="submit" class="review__btn">Submit</button>
+      </form>
+
+      <form class="review__summary">
+        <img src="./images/illustration-thank-you.svg" alt="" class="review__summary-img">
+        <span class="reviews__summary-box">You selected 4 out of 5</span>
+        <h2 class="reviews__summary-title">Thank you!</h2>
+        <p class="reviews__summary-text">We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+      </form>
+  </section>
+
+
+
+</body>
+</html>
